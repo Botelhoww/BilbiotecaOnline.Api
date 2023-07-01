@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "x/H1FJGp3C3jrfpFtKHQdOOdm4yCyU2/py+TtIdIl90=",
+  "Source": "BilbiotecaOnline.Api",
+  "BasePath": "_content/BilbiotecaOnline.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

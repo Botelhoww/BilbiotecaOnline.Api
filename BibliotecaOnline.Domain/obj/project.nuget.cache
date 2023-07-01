@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "TMOO4BZpK6jZbSJpwKJeA+2/5WcKlJSjVLfSp8Ywn8rIkKeCnTx5PCJ13y/5lgCyHL1FQW2pZLItKNZc3QJ/FA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vbawa\\source\\repos\\BilbiotecaOnline.Api\\BibliotecaOnline.Domain\\BibliotecaOnline.Domain.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.fiap.com.br/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

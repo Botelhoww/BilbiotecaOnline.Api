@@ -1,0 +1,15 @@
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Services\bin\Debug\net7.0\BibliotecaOnline.Services.deps.json
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Services\bin\Debug\net7.0\BibliotecaOnline.Services.dll
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Services\bin\Debug\net7.0\BibliotecaOnline.Services.pdb
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Services\bin\Debug\net7.0\BibliotecaOnline.Domain.dll
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Services\bin\Debug\net7.0\BibliotecaOnline.Domain.pdb
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Services\obj\Debug\net7.0\BibliotecaOnline.Services.csproj.AssemblyReference.cache
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Services\obj\Debug\net7.0\BibliotecaOnline.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Services\obj\Debug\net7.0\BibliotecaOnline.Services.AssemblyInfoInputs.cache
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Services\obj\Debug\net7.0\BibliotecaOnline.Services.AssemblyInfo.cs
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Services\obj\Debug\net7.0\BibliotecaOnline.Services.csproj.CoreCompileInputs.cache
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Services\obj\Debug\net7.0\BibliotecaOnline.Services.csproj.CopyComplete
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Services\obj\Debug\net7.0\BibliotecaOnline.Services.dll
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Services\obj\Debug\net7.0\refint\BibliotecaOnline.Services.dll
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Services\obj\Debug\net7.0\BibliotecaOnline.Services.pdb
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Services\obj\Debug\net7.0\ref\BibliotecaOnline.Services.dll

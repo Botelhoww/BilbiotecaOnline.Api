@@ -1,0 +1,12 @@
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Domain\bin\Debug\net7.0\BibliotecaOnline.Domain.deps.json
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Domain\bin\Debug\net7.0\BibliotecaOnline.Domain.dll
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Domain\bin\Debug\net7.0\BibliotecaOnline.Domain.pdb
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Domain\obj\Debug\net7.0\BibliotecaOnline.Domain.csproj.AssemblyReference.cache
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Domain\obj\Debug\net7.0\BibliotecaOnline.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Domain\obj\Debug\net7.0\BibliotecaOnline.Domain.AssemblyInfoInputs.cache
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Domain\obj\Debug\net7.0\BibliotecaOnline.Domain.AssemblyInfo.cs
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Domain\obj\Debug\net7.0\BibliotecaOnline.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Domain\obj\Debug\net7.0\BibliotecaOnline.Domain.dll
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Domain\obj\Debug\net7.0\refint\BibliotecaOnline.Domain.dll
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Domain\obj\Debug\net7.0\BibliotecaOnline.Domain.pdb
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Domain\obj\Debug\net7.0\ref\BibliotecaOnline.Domain.dll

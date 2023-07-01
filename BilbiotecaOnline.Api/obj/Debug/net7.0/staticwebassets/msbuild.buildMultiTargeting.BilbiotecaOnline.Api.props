@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BilbiotecaOnline.Api.props" />
+</Project>

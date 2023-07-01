@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "BibliotecaOnline.Services/1.0.0": {
+        "dependencies": {
+          "BibliotecaOnline.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BibliotecaOnline.Services.dll": {}
+        }
+      },
+      "BibliotecaOnline.Domain/1.0.0": {
+        "runtime": {
+          "BibliotecaOnline.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BibliotecaOnline.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaOnline.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
