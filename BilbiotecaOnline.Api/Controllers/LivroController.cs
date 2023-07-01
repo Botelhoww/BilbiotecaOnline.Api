@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BibliotecaOnline.Domain;
+using BibliotecaOnline.Services;
+using BibliotecaOnline.Services.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace BilbiotecaOnline.Api.Controllers
 {
@@ -8,36 +10,65 @@ namespace BilbiotecaOnline.Api.Controllers
     [ApiController]
     public class LivroController : ControllerBase
     {
-        // GET: api/<LivroController>
+        private readonly ILivroService _livroService;
+
+        public LivroController(ILivroService livroService)
+        {
+            _livroService = livroService;
+        }
+
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Livro> GetAll()
         {
-            return new string[] { "value1", "value2" };
+            return _livroService.GetAll();
         }
 
-        // GET api/<LivroController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<Livro> GetByIdAsync(int id)
         {
-            return "value";
+            return await _livroService.GetByIdAsync(id);
         }
 
-        // POST api/<LivroController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<IActionResult> InsertAsync(Livro livro)
         {
+            try
+            {
+                await _livroService.InsertAsync(livro);
+                return CreatedAtAction("GetAll", livro);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
 
-        // PUT api/<LivroController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut]
+        public async Task<IActionResult> UpdateAsync(Livro livro)
         {
+            try
+            {
+                await _livroService.UpdateAsync(livro);
+                return Ok();
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
 
-        // DELETE api/<LivroController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> DeleteAsync(int id)
         {
+            try
+            {
+                await _livroService.DeleteAsync(id);
+                return NoContent();
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
     }
 }

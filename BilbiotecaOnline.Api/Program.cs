@@ -3,6 +3,7 @@ using BibliotecaOnline.Infrastructure.Context;
 using BibliotecaOnline.Services.Interfaces;
 using BibliotecaOnline.Services;
 using Microsoft.EntityFrameworkCore;
+using BibliotecaOnline.Domain.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +19,8 @@ builder.Services.AddDbContext<BibliotecaContext>(options =>
 
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
-//builder.Services.AddScoped<ILivroRepository, LivroRepository>();
+builder.Services.AddScoped<ILivroRepository, LivroRepository>();
+builder.Services.AddScoped<ILivroService, LivroService>();
 //builder.Services.AddScoped<IEmprestimoRepository, EmprestimoRepository>();
 
 var app = builder.Build();

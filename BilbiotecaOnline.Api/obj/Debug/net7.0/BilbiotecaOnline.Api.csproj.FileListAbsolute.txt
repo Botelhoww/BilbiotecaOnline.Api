@@ -7,6 +7,7 @@ C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BilbiotecaOnline.Api\bin\Debug\
 C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BilbiotecaOnline.Api\bin\Debug\net7.0\BilbiotecaOnline.Api.pdb
 C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BilbiotecaOnline.Api\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BilbiotecaOnline.Api\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BilbiotecaOnline.Api\bin\Debug\net7.0\FluentValidation.dll
 C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BilbiotecaOnline.Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BilbiotecaOnline.Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BilbiotecaOnline.Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll

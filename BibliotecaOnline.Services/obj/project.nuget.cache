@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "M5BW/eluVCWGQs07oVrptZBpSEq99e8azhA6tFW/D5y0OpPv8Cl/kEsg1KyixYN5qL9RzBgRajvBrI5waCWM0Q==",
+  "dgSpecHash": "FgGXD/FCNlJ97m/R1qU7osKhMQM8mRSYZyi1+/b27CfzH7HUS5JyyXZckqslmNflCiQWhELJXBYfo12Jjc0Khw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vbawa\\source\\repos\\BilbiotecaOnline.Api\\BibliotecaOnline.Services\\BibliotecaOnline.Services.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vbawa\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512"
+  ],
   "logs": [
     {
       "code": "NU1803",

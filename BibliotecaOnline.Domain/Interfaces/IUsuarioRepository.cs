@@ -1,11 +1,11 @@
 ﻿using BibliotecaOnline.Domain;
 
-namespace BibliotecaOnline.Services.Interfaces
+namespace BibliotecaOnline.Domain.Interfaces
 {
     public interface IUsuarioRepository
     {
-        public Task<List<Usuario>> GetAllUsuariosAsync();
-        public Task<Usuario> GetUsuarioAsync(int id);
+        public IEnumerable<Usuario> GetAll();
+        public Task<Usuario> GetByIdAsync(int id);
         Task InsertAsync(Usuario usuario);
         Task UpdateAsync(Usuario usuario);
         Task DeleteAsync(int id);

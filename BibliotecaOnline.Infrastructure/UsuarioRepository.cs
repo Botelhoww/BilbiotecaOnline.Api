@@ -1,6 +1,7 @@
 ﻿using BibliotecaOnline.Domain;
+using BibliotecaOnline.Domain.Interfaces;
 using BibliotecaOnline.Infrastructure.Context;
-using BibliotecaOnline.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace BibliotecaOnline.Infrastructure
 {
@@ -13,19 +14,29 @@ namespace BibliotecaOnline.Infrastructure
             _context = context;
         }
 
-        public Task DeleteAsync(int id)
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Id == id);
+
+            if (usuario != null)
+            {
+                _context.Remove(usuario);
+                await _context.SaveChangesAsync();
+            }
+            else
+            {
+                throw new Exception($"Usuário com ID {id} não encontrado.");
+            }
         }
 
-        public Task<List<Usuario>> GetAllUsuariosAsync()
+        public IEnumerable<Usuario> GetAll()
         {
-            throw new NotImplementedException();
+            return _context.Usuarios.ToList().OrderByDescending(x => x.Id);
         }
 
-        public Task<Usuario> GetUsuarioAsync(int id)
+        public async Task<Usuario> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _context.Usuarios.Where(x => x.Id == id).SingleAsync();
         }
 
         public async Task InsertAsync(Usuario usuario)
@@ -34,9 +45,10 @@ namespace BibliotecaOnline.Infrastructure
             await _context.SaveChangesAsync();
         }
 
-        public Task UpdateAsync(Usuario usuario)
+        public async Task UpdateAsync(Usuario usuario)
         {
-            throw new NotImplementedException();
+            _context.Update(usuario);
+            await _context.SaveChangesAsync();
         }
     }
 }
