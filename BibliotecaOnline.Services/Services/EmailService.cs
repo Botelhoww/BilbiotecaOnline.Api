@@ -21,5 +21,13 @@ namespace BibliotecaOnline.Domain.Services
 
             client.Send(mail);
         }
+
+        public static bool IsValid(string email)
+        {
+            if (email.Contains("@"))
+                return true;
+
+            return false;
+        }
     }
 }

@@ -1,6 +1,4 @@
-﻿using BibliotecaOnline.Domain.Services;
-
-namespace BibliotecaOnline.Domain
+﻿namespace BibliotecaOnline.Domain
 {
     public class Emprestimo
     {
@@ -10,12 +8,5 @@ namespace BibliotecaOnline.Domain
         public int IdUsuario { get; set; }
         public int IdLivro { get; set; }
         public bool IsAtrasado { get; set; }
-
-        public bool VerificaAtraso()
-        {
-            IsAtrasado = EmpresitmoService.VerificaAtraso(DataDevolucao);
-
-            return IsAtrasado;
-        }
     }
 }

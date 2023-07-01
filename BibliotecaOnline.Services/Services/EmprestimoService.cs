@@ -1,6 +1,6 @@
 ﻿namespace BibliotecaOnline.Domain.Services
 {
-    public class EmpresitmoService
+    public class EmprestimoService
     {
         public static bool VerificaAtraso(DateTime dataDevolucao)
         {

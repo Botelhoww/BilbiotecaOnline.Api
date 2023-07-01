@@ -9,11 +9,11 @@ namespace BilbiotecaOnline.Api.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        private readonly IUsuarioRepository _usuarioRepository;
+        private readonly IUsuarioService _usuarioService;
 
-        public UsuarioController(IUsuarioRepository usuarioRepository)
+        public UsuarioController(IUsuarioService usuarioService)
         {
-            _usuarioRepository = usuarioRepository;
+            _usuarioService = usuarioService;
         }
 
         [HttpGet]
@@ -33,7 +33,7 @@ namespace BilbiotecaOnline.Api.Controllers
         {
             try
             {
-                var response = _usuarioRepository.InsertAsync(usuario);
+                var response = _usuarioService.InsertAsync(usuario);
 
                 return CreatedAtAction("GetAll", usuario);
             }

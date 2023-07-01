@@ -1,6 +1,4 @@
-﻿using BibliotecaOnline.Domain.Services;
-
-namespace BibliotecaOnline.Domain
+﻿namespace BibliotecaOnline.Domain
 {
     public class Usuario
     {

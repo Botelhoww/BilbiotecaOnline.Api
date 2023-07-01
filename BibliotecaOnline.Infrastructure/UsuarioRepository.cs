@@ -1,10 +1,18 @@
 ﻿using BibliotecaOnline.Domain;
+using BibliotecaOnline.Infrastructure.Context;
 using BibliotecaOnline.Services.Interfaces;
 
 namespace BibliotecaOnline.Infrastructure
 {
     public class UsuarioRepository : IUsuarioRepository
     {
+        private readonly BibliotecaContext _context;
+
+        public UsuarioRepository(BibliotecaContext context)
+        {
+            _context = context;
+        }
+
         public Task DeleteAsync(int id)
         {
             throw new NotImplementedException();
@@ -20,9 +28,10 @@ namespace BibliotecaOnline.Infrastructure
             throw new NotImplementedException();
         }
 
-        public Task InsertAsync(Usuario usuario)
+        public async Task InsertAsync(Usuario usuario)
         {
-            throw new NotImplementedException();
+            _context.Add(usuario);
+            await _context.SaveChangesAsync();
         }
 
         public Task UpdateAsync(Usuario usuario)

@@ -1,4 +1,5 @@
 C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Infrastructure\bin\Debug\net7.0\BibliotecaOnline.Infrastructure.deps.json
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Infrastructure\bin\Debug\net7.0\BibliotecaOnline.Infrastructure.runtimeconfig.json
 C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Infrastructure\bin\Debug\net7.0\BibliotecaOnline.Infrastructure.dll
 C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Infrastructure\bin\Debug\net7.0\BibliotecaOnline.Infrastructure.pdb
 C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Infrastructure\bin\Debug\net7.0\BibliotecaOnline.Domain.dll
@@ -12,4 +13,5 @@ C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Infrastructure
 C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Infrastructure\obj\Debug\net7.0\BibliotecaOnline.Infrastructure.dll
 C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Infrastructure\obj\Debug\net7.0\refint\BibliotecaOnline.Infrastructure.dll
 C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Infrastructure\obj\Debug\net7.0\BibliotecaOnline.Infrastructure.pdb
+C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Infrastructure\obj\Debug\net7.0\BibliotecaOnline.Infrastructure.genruntimeconfig.cache
 C:\Users\vbawa\source\repos\BilbiotecaOnline.Api\BibliotecaOnline.Infrastructure\obj\Debug\net7.0\ref\BibliotecaOnline.Infrastructure.dll
